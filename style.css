@@ -1,5 +1,5 @@
 body {
-    background-image: url('bg.jpg');
+    background-image: url('images/bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -10,12 +10,46 @@ body {
     background-color: rgba(38, 38, 38, 0.8);
     color: #fffbc4;
     font-family: "Consolas";
-    max-width: 850px;
+    max-width: 700px;
     margin: auto;
     overflow-y: auto;  
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
+}
+
+.eng {
+    letter-spacing: -1.5px;
+}
+
+.jp {
+    font-family: "Noto Sans"
+}
+
+.container {
+    display: flex;
+}
+.script {
+    font-family: "Yu Gothic";
+    flex: 1;
+    padding: 10px;
+    font-size: 15px;
+    border-right: 1px solid #ccc;
+    position: relative;
+}
+.translation {
+    font-family: "Times New Roman";
+    font-size: 19px;
+    flex: 1;
+    padding: 10px;
+    padding-left: 20px;
+    position: relative;
+    letter-spacing: 0px;
+    font-style: italic;
+    
+}
+.highlighted {
+    background-color: rgba(200, 255, 0, .4);
 }
 
 nav {
