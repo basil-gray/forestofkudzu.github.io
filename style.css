@@ -5,11 +5,16 @@ body {
     background-attachment: fixed;
 } 
 
+@font-face {
+    font-family: "Consolas";
+    src: url(./fonts/Consolas.ttf);
+}
+
 .body-container{
     padding: 20px;
     background-color: rgba(38, 38, 38, 0.8);
     color: #fffbc4;
-    font-family: "Consolas";
+    font-family: Consolas;
     max-width: 700px;
     margin: auto;
     overflow-y: auto;  
